@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slagalica</title>
+		<meta name="description" content="Slagalica Javascript">
+		<meta name="keywords" content="slagalica, javascript">
+		<meta name="author" content="Nikola Stojanovic">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
+	</head>
+
+	<body>
+		<div id="unosImena">
+			<h1>Slagalica 4x4</h1>
+			<div>
+				<input type="text" id="ime" maxlength="15" placeholder="Unesite ime">
+				<div class="button" onclick="unosImena()">OK</div>
+			</div>
+  		</div>
+		<main>
+			<h1>Slagalica 4x4</h1>
+			<div class="button" onclick="novaIgra()">Generiši novu tablu</div>
+			<div id="container"></div>
+		</main>
+	</body>
+</html>
