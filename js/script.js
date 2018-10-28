@@ -57,7 +57,7 @@ function pomeriElement(a) {
 function unosImena() {
 	imeIgraca = $("#ime").val();
 	if (imeIgraca === "") {
-		alert("Molimo unesite ime");
+		alert("Please enter your name");
 	} else {
 		$("#unosImena").css("display", "none");
 		$("main").css("display", "flex");
@@ -82,7 +82,7 @@ function proveriRasporedElemenata() {
 					"user-select" : "none",
 					"cursor" : "pointer"
 				});
-				$("#unosImena").html("Bravo " + imeIgraca + ", završili ste igru u " + brojPoteza + " poteza <br> (kliknite na ovaj prozor da generišete novu tablu)");
+				$("#unosImena").html("Bravo " + imeIgraca + ", you have finished the game in " + brojPoteza + " moves <br> (click to generate new table)");
 				$("#unosImena").click(function() {
 					$("#unosImena").css("display", "none");
 					$("main").css({
